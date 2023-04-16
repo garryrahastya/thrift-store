@@ -1,0 +1,61 @@
+.modalForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .modalInput {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .modalBtn {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modalBtn[type="submit"] {
+    background-color: #28a745;
+    margin-bottom: 4px;
+  }
+  
+  .modalBtn[type="submit"],
+  .modalBtn[type="button"] {
+    margin-top: 10px;
+  }
+
+  .errorMsg {
+    color: red;
+  }
+
+  .error {
+    border: 1px solid red;
+  }
+  
+  .shake {
+    animation: shake 0.5s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

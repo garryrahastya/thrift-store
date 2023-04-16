@@ -1,0 +1,23 @@
+.gridItem {
+    margin: 1em;
+}
+
+.gridItem img {
+    width: 100%;
+}
+
+.gridItem p {
+    margin: 0;
+    text-align: left;
+}
+
+.price {
+    font-size: 1.5em;
+    text-align: left !important; 
+    margin-top: 10px !important;
+}
+
+.description {
+    color: #777777;
+}
+

@@ -1,0 +1,48 @@
+.gallery {
+  padding: 1.1em;
+  flex: 1;
+  margin: 1em;
+}
+
+.grid {
+  margin-top: 1.8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.7em;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 36px;
+}
+
+.addBtn {
+  background-color: rgb(103, 103, 249);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: .7em;
+  float: right;
+}
+
+.addBtn:hover {
+  background-color: rgb(87, 87, 207);
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang dengan transparansi 50% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Mengatur z-index agar overlay berada di atas konten lain */
+}
