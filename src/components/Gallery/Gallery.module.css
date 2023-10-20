@@ -4,6 +4,10 @@
   margin: 1em;
 }
 
+.title {
+  text-align: center;
+}
+
 .grid {
   margin-top: 1.8em;
   display: grid;

@@ -37,12 +37,12 @@ function Gallery({ books }) {
 
   return (
     <div className={styles.gallery}>
-      <h1>Welcome to our Thrift Store.</h1>
+      <h1 className={styles.title}>Welcome to our Thrift Store.</h1>
       <br/>
       <br/>
       <br/>
       <button onClick={handleOpenModal} className={styles.addBtn}>Add Data</button>
-      <h3>Gallery</h3>
+      <h3>Catalog</h3>
       
       {isModalVisible && (
         <div className={styles.modalOverlay}>

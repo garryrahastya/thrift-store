@@ -1,23 +1,69 @@
-.gridItem {
-    margin: 1em;
-}
+/* GalleryItem.module.css */
 
-.gridItem img {
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .imageWrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%; /* Mengatur aspect ratio menjadi 1:1 */
+  }
+  
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-}
-
-.gridItem p {
-    margin: 0;
-    text-align: left;
-}
-
-.price {
-    font-size: 1.5em;
-    text-align: left !important; 
-    margin-top: 10px !important;
-}
-
-.description {
-    color: #777777;
-}
-
+    height: 100%;
+    object-fit: cover; /* Mengatur gambar agar terisi penuh pada wrapper */
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    margin-bottom: 16px;
+    color: #929292;
+  }
+  
+  .priceWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .price {
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  
+  .buyBtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .buyBtn:hover {
+    background-color: #0056b3;
+  }
+  

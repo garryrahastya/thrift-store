@@ -25,7 +25,11 @@ function Bookstore() {
     <div>
       <Navbar handleSubmit={handleOnSearch} />
       <div className={styles.contentWrapper}>
-        <Gallery books={books}  />
+      {noResults ? (
+          <p className={styles.warning}>No Data Results.</p>
+        ) : (
+          <Gallery books={books} />
+        )}
       </div>
     </div>
   );

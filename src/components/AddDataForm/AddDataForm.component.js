@@ -65,7 +65,7 @@ function AddDataForm({ handleCloseModal, handleAddBook, handleFormChange }) {
         </div>
         <div className={styles.formGroup}>
           <label htmlFor="price" className={styles.label}>Price (Put Rp. infront)</label>
-          <input type="text" name="price" id="price" className={`${styles.modalInput} ${error ? styles.error : ''}`} onChange={handleInputChange} />
+          <input type="number" name="price" id="price" className={`${styles.modalInput} ${error ? styles.error : ''}`} onChange={handleInputChange} />
         </div>
         {error && <p className={styles.errorMsg}>{error}</p>}
         <button type="submit" className={styles.modalBtn}>Add</button>
