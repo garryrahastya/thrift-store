@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thrift-store/static/css/main.3d858a86.css",
+    "main.js": "/thrift-store/static/js/main.00e8f769.js",
+    "static/js/787.6ee6e96a.chunk.js": "/thrift-store/static/js/787.6ee6e96a.chunk.js",
+    "static/media/logo2.svg": "/thrift-store/static/media/logo2.8f4a8ebd08dd86485e77d77544822b15.svg",
+    "index.html": "/thrift-store/index.html",
+    "main.3d858a86.css.map": "/thrift-store/static/css/main.3d858a86.css.map",
+    "main.00e8f769.js.map": "/thrift-store/static/js/main.00e8f769.js.map",
+    "787.6ee6e96a.chunk.js.map": "/thrift-store/static/js/787.6ee6e96a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d858a86.css",
+    "static/js/main.00e8f769.js"
+  ]
+}
